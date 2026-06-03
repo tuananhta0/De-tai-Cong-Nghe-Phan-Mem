@@ -37,7 +37,7 @@
 * Xem phim từ 1–2 lần mỗi tháng.
 * Thường đi xem cùng bạn bè.
 
-### Câu nói đại diện
+### Câu nói đại diện:
 
 "Tôi muốn đặt vé trong vài phút mà không cần đến rạp sớm."
 
