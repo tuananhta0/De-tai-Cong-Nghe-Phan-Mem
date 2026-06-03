@@ -1,0 +1,38 @@
+TẦM NHÌN VÀ MỤC TIÊU SẢN PHẨM (PRODUCT VISION)
+Tên dự án (Dự kiến): Hệ thống Quản lý và Đặt vé Rạp chiếu phim trực tuyến (Cinema Booking System)
+
+1. Mô tả vấn đề sản phẩm giải quyết
+Hệ thống được tạo ra để giải quyết các "nỗi đau" (pain points) của cả khách hàng lẫn phía rạp chiếu phim:
+
+Về phía khách hàng: Tốn nhiều thời gian xếp hàng chờ mua vé, không biết trước còn ghế trống hay không, 
+khó khăn trong việc chọn vị trí ngồi yêu thích và cập nhật lịch chiếu phim mới nhất.
+
+Về phía rạp chiếu phim: Quản lý lượng lớn khách hàng vào giờ cao điểm bằng phương pháp thủ công dễ gây sai sót,
+khó kiểm soát doanh thu bán vé/đồ ăn, và thiếu dữ liệu để chăm sóc khách hàng.
+
+2. Xác định đối tượng sử dụng
+Sản phẩm phục vụ hai nhóm đối tượng chính:
+
+Khách hàng (End-user): Những người có nhu cầu xem phim, muốn đặt vé nhanh chóng, tiện lợi qua web/app (Học sinh,
+sinh viên, gia đình, người đi làm...).
+
+Nhân viên rạp & Quản lý (Admin/Staff): Nhân viên bán vé/soát vé, quản lý rạp cần theo dõi doanh thu, lịch chiếu,
+và tình trạng phòng chiếu.
+
+3. Xác định giá trị cốt lõi
+Tiện lợi (Convenience): Khách hàng có thể xem lịch chiếu, chọn ghế và đặt vé mọi lúc,
+mọi nơi chỉ với vài cú click.
+
+Nhanh chóng & Chính xác (Speed & Accuracy): Thanh toán trực tuyến mượt mà,
+cập nhật trạng thái ghế trống theo thời gian thực (real-time) để tránh trùng lặp.
+
+Tối ưu hóa (Optimization): Tự động hóa quy trình quản lý rạp chiếu,
+giảm tải công việc cho nhân viên và tăng trải nghiệm hài lòng cho người xem.
+
+4. Product Vision Statement (Tuyên ngôn Tầm nhìn Sản phẩm)
+"Trở thành nền tảng đặt vé và quản lý rạp chiếu phim tiện ích nhất, 
+mang đến cho người yêu điện ảnh một trải nghiệm mua vé mượt mà, 
+chọn ghế chính xác chỉ trong vài giây. 
+Đồng thời, cung cấp cho ban quản lý rạp một công cụ vận hành thông minh,
+tự động hóa quy trình quản lý doanh thu và lịch chiếu,
+giúp tối ưu hóa hiệu suất phục vụ và nâng tầm trải nghiệm giải trí số."
