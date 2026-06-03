@@ -31,7 +31,7 @@
 * Thông tin phim phân tán trên nhiều nền tảng.
 * Tốn thời gian mua vé trực tiếp tại rạp.
 
-### Hành vi sử dụng
+### Hành vi sử dụng:
 
 * Truy cập chủ yếu bằng điện thoại.
 * Xem phim từ 1–2 lần mỗi tháng.
