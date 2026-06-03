@@ -18,7 +18,7 @@
 * Xem lịch chiếu thuận tiện.
 * Đặt vé trực tuyến để không phải xếp hàng.
 
-### Nhu cầu
+### Nhu cầu:
 
 * Giao diện đơn giản, dễ sử dụng.
 * Thông tin phim đầy đủ và dễ tra cứu.
