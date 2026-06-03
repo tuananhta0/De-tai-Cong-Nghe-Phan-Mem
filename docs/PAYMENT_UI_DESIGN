@@ -1,0 +1,239 @@
+# Payment UI Design
+
+## Mục tiêu
+
+Thiết kế giao diện thanh toán và xác nhận đặt vé thành công cho hệ thống Movie Ticket System.
+
+---
+
+# Màn hình Thanh toán
+
+## Chức năng
+
+Cho phép người dùng:
+
+* Kiểm tra lại thông tin vé
+* Xem tổng tiền cần thanh toán
+* Chọn phương thức thanh toán
+* Xác nhận đặt vé
+
+---
+
+## Thành phần giao diện
+
+### 1. Thông tin vé
+
+Hiển thị:
+
+* Tên phim
+* Ngày chiếu
+* Giờ chiếu
+* Phòng chiếu
+* Ghế đã chọn
+
+### Ví dụ
+
+```text
+Tên phim: Avengers Endgame
+
+Ngày chiếu: 15/06/2026
+
+Giờ chiếu: 19:30
+
+Phòng chiếu: Cinema 3
+
+Ghế: A5, A6
+```
+
+---
+
+### 2. Tổng tiền
+
+Hiển thị:
+
+* Giá vé
+* Số lượng vé
+* Tổng tiền
+
+### Ví dụ
+
+```text
+2 vé × 90.000 VNĐ
+
+Tổng cộng: 180.000 VNĐ
+```
+
+---
+
+### 3. Phương thức thanh toán
+
+Các lựa chọn:
+
+* Thẻ ngân hàng
+* MoMo
+* ZaloPay
+* Thanh toán tại quầy
+
+### Ví dụ
+
+```text
+○ Thẻ ngân hàng
+
+○ MoMo
+
+○ ZaloPay
+
+○ Thanh toán tại quầy
+```
+
+---
+
+### 4. Nút xác nhận
+
+```text
+[XÁC NHẬN THANH TOÁN]
+```
+
+---
+
+# Wireframe Màn hình Thanh toán
+
+```text
++------------------------------------------------+
+|                 THANH TOÁN                     |
++------------------------------------------------+
+
+THÔNG TIN VÉ
+
+Tên phim: Avengers Endgame
+Ngày: 15/06/2026
+Giờ: 19:30
+Phòng: Cinema 3
+Ghế: A5, A6
+
+------------------------------------------------
+
+TỔNG TIỀN
+
+2 vé × 90.000 VNĐ
+
+Tổng cộng: 180.000 VNĐ
+
+------------------------------------------------
+
+PHƯƠNG THỨC THANH TOÁN
+
+○ Thẻ ngân hàng
+
+○ MoMo
+
+○ ZaloPay
+
+○ Thanh toán tại quầy
+
+------------------------------------------------
+
+[ XÁC NHẬN THANH TOÁN ]
+
++------------------------------------------------+
+```
+
+---
+
+# Màn hình Đặt Vé Thành Công
+
+## Chức năng
+
+Thông báo cho người dùng rằng quá trình đặt vé đã hoàn tất thành công.
+
+---
+
+## Thành phần giao diện
+
+### Trạng thái
+
+```text
+✓ ĐẶT VÉ THÀNH CÔNG
+```
+
+---
+
+### Thông tin vé
+
+Hiển thị:
+
+* Mã vé
+* Tên phim
+* Ngày chiếu
+* Giờ chiếu
+* Ghế
+* Tổng tiền
+
+### Ví dụ
+
+```text
+Mã vé: MV123456
+
+Tên phim: Avengers Endgame
+
+Ngày chiếu: 15/06/2026
+
+Giờ chiếu: 19:30
+
+Ghế: A5, A6
+
+Tổng tiền: 180.000 VNĐ
+```
+
+---
+
+### Các nút chức năng
+
+```text
+[ VỀ TRANG CHỦ ]
+
+[ XEM CHI TIẾT VÉ ]
+```
+
+---
+
+# Wireframe Màn hình Thành Công
+
+```text
++------------------------------------------------+
+|                      ✓                         |
+|            ĐẶT VÉ THÀNH CÔNG                   |
++------------------------------------------------+
+
+Mã vé: MV123456
+
+Tên phim: Avengers Endgame
+
+Ngày chiếu: 15/06/2026
+
+Giờ chiếu: 19:30
+
+Ghế: A5, A6
+
+Tổng tiền: 180.000 VNĐ
+
+------------------------------------------------
+
+[ VỀ TRANG CHỦ ]
+
+[ XEM CHI TIẾT VÉ ]
+
++------------------------------------------------+
+```
+
+---
+
+# Acceptance Criteria
+
+* Hiển thị đầy đủ thông tin vé
+* Hiển thị tổng tiền thanh toán
+* Cho phép lựa chọn phương thức thanh toán
+* Có nút xác nhận thanh toán
+* Có màn hình thông báo đặt vé thành công
+* Hiển thị mã vé sau khi thanh toán thành công
+* Giao diện đơn giản và dễ sử dụng
