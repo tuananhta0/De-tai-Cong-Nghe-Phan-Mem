@@ -11,7 +11,7 @@
 * Thu nhập: 3 – 5 triệu đồng/tháng
 * Nơi ở: Hà Nội
 
-### Mục tiêu
+### Mục tiêu:
 
 * Đặt vé xem phim nhanh chóng.
 * Tìm kiếm phim đang chiếu.
