@@ -44,5 +44,4 @@
 * **Hàng H (Ghế đôi):** Chiếm kích thước X-axis gấp đôi ghế thường ($1 \times 2$).
 * **Nút `[-]` tại cụm Bắp nước:** Mặc định `disabled` nếu số lượng bằng `0`.
 * **Sidebar Data Binding:** Tổng tiền và danh sách ghế tự động re-render (Real-time) theo hành vi click ở vùng bên trái.
-* <img width="1898" height="910" alt="image" src="https://github.com/user-attachments/assets/2c91eeb0-1224-414c-9216-fd1f2d180f6c" />
-* <img width="1894" height="716" alt="image" src="https://github.com/user-attachments/assets/0d4338ef-a2d8-4b42-898f-712ef07f50c7" />
+* <img width="1208" height="2805" alt="172 17 154 18_3000_" src="https://github.com/user-attachments/assets/3a102d0f-308d-4b7c-8914-c5f42941aaea" />
