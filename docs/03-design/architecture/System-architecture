@@ -1,0 +1,39 @@
+Mô tả toàn bộ hệ thống gồm những thành phần nào và chúng giao tiếp với nhau ra sao.
+
+┌─────────────────────┐
+│      Khách hàng     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│     Frontend Web    │
+│  HTML / CSS / JS    │
+└──────────┬──────────┘
+           │ REST API
+           ▼
+┌─────────────────────┐
+│      Backend C++    │
+│ Business Logic Layer│
+└───────┬─────┬───────┘
+        │     │
+        │     │
+        ▼     ▼
+┌──────────┐ ┌─────────────┐
+│ SQL DB   │ │ AI Module   │
+│ Movies   │ │ Python      │
+│ Users    │ │ Recommend   │
+│ Bookings │ └─────────────┘
+│ Payments │
+└─────┬────┘
+      │
+      ▼
+┌─────────────────────┐
+│ Payment Gateway     │
+│ VNPay / MoMo        │
+└─────────────────────┘
+      │
+      ▼
+┌─────────────────────┐
+│ Email Service       │
+│ QR Ticket Delivery  │
+└─────────────────────┘
