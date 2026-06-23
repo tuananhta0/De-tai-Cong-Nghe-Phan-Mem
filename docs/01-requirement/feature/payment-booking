@@ -1,0 +1,69 @@
+# Payment & Booking Feature
+
+## Feature Overview
+
+This feature allows customers to review booking information, complete payment, and successfully reserve movie tickets.
+
+---
+
+## User Story
+
+As a customer,
+
+I want to review my booking details and complete payment,
+
+So that I can reserve seats and receive confirmation.
+
+---
+
+## Acceptance Criteria
+
+### Booking Summary
+
+The system shall display:
+
+- Movie name
+- Showtime
+- Selected seats
+- Quantity of seats
+- Total price
+
+### Payment
+
+The system shall support fake payment (mock payment).
+
+Payment processing time: approximately 2–3 seconds.
+
+### Booking API
+
+The system shall call Booking API after payment succeeds.
+
+Example request:
+
+POST /api/bookings
+
+
+Payload:
+
+{
+    movieId,
+    showtimeId,
+    seatIds,
+    totalAmount
+}
+
+
+### Success Page
+
+After successful booking:
+
+User shall be redirected to Success Page.
+
+Success page contains:
+
+- Booking ID
+- Movie name
+- Showtime
+- Seats
+- Total amount
+- Success message
